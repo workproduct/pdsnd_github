@@ -8,6 +8,7 @@ statistics. You will also write a script that takes in raw input to create an
 interactive experience in the terminal to present these statistics.
 AUTHOR: Yates Holley
 DATE: 11/07/2018
+CONTACT: contact@yatesholley.com
 """
 
 import time
