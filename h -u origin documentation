@@ -1,0 +1,23 @@
+[33mcommit 8ce86499e57440c6ad922e7cb30ecde144027c62[m[33m ([m[1;36mHEAD -> [m[1;32mdocumentation[m[33m)[m
+Author: yates holley <contact@yatesholley.com>
+Date:   Fri Nov 9 15:00:13 2018 -0800
+
+    docs: update README.md
+    
+    Added description of project
+
+[33mcommit 70e612230c910b4cb45e005976a530e0b5e501bb[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: yates holley <contact@yatesholley.com>
+Date:   Fri Nov 9 14:47:18 2018 -0800
+
+    chore: Initial Commit
+    
+    Initial Commit of Bikeshare project
+    
+    footer
+
+[33mcommit 46a5819dc927e9405b589b41529d76b86d41ec36[m
+Author: Ruchi B <41761551+rbUdacProjects@users.noreply.github.com>
+Date:   Tue Aug 14 15:26:00 2018 -0700
+
+    Create README.md

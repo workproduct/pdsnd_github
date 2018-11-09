@@ -87,10 +87,6 @@ def get_filters():
     output = input('Output raw data? Enter yes or no: ')
     if output.lower() != 'yes':
         output='no'
-    #for debug
-    #city = "chicago"
-    #month = "all"
-    #day = "1"
 
     print('-'*40)
     return city, month, day, output
@@ -107,9 +103,6 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-
-    #this is only loading 10 rows
-    #df = pd.read_csv(CITY_DATA[city], nrows=10)
 
     df = pd.read_csv(CITY_DATA[city])
     df = df.fillna(method='bfill')
@@ -181,8 +174,6 @@ def station_stats(df):
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
-
-    #not sure if these are right, might need to double check
 
     # display most commonly used start station
     mss = df['Start Station'].value_counts().idxmax()
